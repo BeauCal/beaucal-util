@@ -13,9 +13,12 @@
     "require": {
         "php": ">=5.3.3"
     },
-	"autoload": {
-		"files" : [
-			"src/functions.php"
-		]
+    "autoload": {
+        "files" : [
+            "src/BeaucalUtil/functions.php"
+        ],
+        "psr-0": {
+            "BeaucalUtil": "src/"
+        }
     }
 }
