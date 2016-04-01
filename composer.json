@@ -1,0 +1,21 @@
+{
+    "name": "beaucal/beaucal-util",
+    "description": "Handy utility functions",
+    "license": "MIT",
+    "homepage": "https://github.com/BeauCal/beaucal-util",
+    "authors": [
+        {
+            "name": "Derek Illchuk",
+            "email": "derek@beaucal.com",
+            "homepage": "https://www.beaucal.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+	"autoload": {
+		"files" : [
+			"src/functions.php"
+		]
+    }
+}
