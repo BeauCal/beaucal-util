@@ -5,7 +5,7 @@ namespace BeaucalUtil;
 /**
  * Query a nested array, nice & safe.
  * 
- * $lookup = new ArrayLookup(['config' => ['first' => ['second' => 'value']]]);
+ * $lookup = new ArrayLookup(['first' => ['second' => 'value']]);
  * $lookup->get(['first', 'second']); // returns "value"
  * $lookup->get(['first', 'junk', 'junk'], 'not found'); // returns "not found"
  * $lookup->get('junk'); // returns null
