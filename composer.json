@@ -13,6 +13,9 @@
     "require": {
         "php": ">=5.3.3"
     },
+    "require-dev": {
+	    "illchuk/phpunit-class-aliases": "^0.1"
+	},
     "autoload": {
         "files" : [
             "src/BeaucalUtil/functions.php"
